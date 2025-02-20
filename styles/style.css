@@ -272,13 +272,10 @@
     min-height: 1024px;
     padding-bottom: 20px;
     padding-top: 20px;
+    margin-bottom: 40px;
   }
   :root {
     --default-padding: 0 20px 0 20px;
-  }
-
-  .header {
-    margin-bottom: 40px;
   }
 
   .header-header {
@@ -444,6 +441,10 @@
     margin-top: 18px;
   }
 
+  .two-columns-main-section {
+    column-gap: 10px;
+  }
+
   .three-columns-main-section {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
@@ -470,10 +471,6 @@
   .three-column-section-thirdly {
     grid-row: 2/3;
     grid-column: 3/4;
-  }
-
-  .two-columns-main-section {
-    column-gap: 10px;
   }
 
   .big-top-padding-section {
