@@ -165,6 +165,7 @@
   color: var(--main-sections-text-color);
   margin-bottom: 20px;
   line-height: 23.4px;
+  font-weight: 400;
 }
 
 .big-top-padding-section {
@@ -225,7 +226,7 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   grid-template-columns: 1fr;
-  background-image: var(--background-image);
+
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -431,7 +432,11 @@
     min-height: 768px;
   }
 
-  .header-header,
+  .header-header {
+    margin-left: -20px;
+    font-size: var(--laptop-tablet-header-clamp);
+  }
+
   .footer-header {
     font-size: var(--laptop-tablet-header-clamp);
   }
