@@ -36,6 +36,10 @@
   color: var(--decorated-text-color);
 }
 
+.theme-light .main-content-header-without-decoration {
+  color: var(--decorated-text-color);
+}
+
 .theme-light .header-header::after,
 .theme-light .header-header::before,
 .theme-light .footer-header::after,
@@ -89,6 +93,10 @@
   }
 
   .main-content-paragraph {
+    color: var(--decorated-text-color);
+  }
+
+  .main-content-header-without-decoration {
     color: var(--decorated-text-color);
   }
 
