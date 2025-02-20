@@ -439,6 +439,7 @@
 
   .three-columns-main-section {
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
   }
 
   .three-column-header {
@@ -465,10 +466,6 @@
 
   .two-columns-main-section {
     column-gap: 10px;
-  }
-
-  .three-columns-main-section {
-    column-gap: 20px;
   }
 
   .big-top-padding-section {
