@@ -4,7 +4,7 @@
 */
 :root {
   --background-color: #000028;
-  --main-font-family: "IBM Plex Mono", sans-serif;
+  --main-font-family: "IBM Plex Mono", monospace;
   --main-sections-text-color: #f1b2ce;
   --decorated-text-color: #000028;
   --accent-color: #ff0070;

@@ -40,10 +40,10 @@
   color: var(--decorated-text-color);
 }
 
-.theme-light .header-header::after,
-.theme-light .header-header::before,
-.theme-light .footer-header::after,
-.theme-light .footer-header::before {
+.theme-light .header-title::after,
+.theme-light .header-title::before,
+.theme-light .footer-title::after,
+.theme-light .footer-title::before {
   border-color: var(--decorated-text-color);
 }
 
@@ -100,10 +100,10 @@
     color: var(--decorated-text-color);
   }
 
-  .header-header::after,
-  .header-header::before,
-  .footer-header::after,
-  .footer-header::before {
+  .header-title::after,
+  .header-title::before,
+  .footer-title::after,
+  .footer-title::before {
     border-color: var(--decorated-text-color);
   }
 
