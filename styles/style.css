@@ -351,13 +351,13 @@
   }
 
   .project-footer {
-    min-height: 1024px;
+    min-height: 1042px;
     padding-top: 34px;
   }
 
   .footer-title::after {
     left: 20px;
-    bottom: 5px;
+    bottom: 20px;
   }
 
   .footer-title::before {
@@ -387,6 +387,7 @@
 
   .footer-title {
     font-size: var(--laptop-tablet-header-clamp);
+    margin-bottom: 18px;
   }
 }
 
@@ -409,7 +410,7 @@
   }
 
   .project-footer {
-    min-height: 780px;
+    min-height: 785px;
   }
 
   .header-title {
@@ -418,6 +419,7 @@
 
   .footer-title {
     font-size: var(--laptop-tablet-header-clamp);
+    margin-bottom: 10px;
   }
 
   .header-article {
@@ -461,6 +463,6 @@
   }
 
   .footer-title::after {
-    bottom: 15px;
+    bottom: 18px;
   }
 }
