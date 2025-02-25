@@ -409,7 +409,7 @@
   }
 
   .project-footer {
-    min-height: 768px;
+    min-height: 780px;
   }
 
   .header-title {
@@ -458,5 +458,9 @@
   .big-top-padding-section {
     margin-bottom: 37px;
     padding-top: 0;
+  }
+
+  .footer-title::after {
+    bottom: 15px;
   }
 }
