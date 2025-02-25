@@ -1,15 +1,15 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
+/* Задаем стили срабатывающие при нажатии на кнопку светлой темы*/
 :root.theme-light {
   --background-color: #fff1f7;
-  --main-sections-text-color: #f1b2ce;
+  --main-sections-text-color: #353430;
   --decorated-text-color: #353430;
-  --accent-color: #ff8dcb;
   --header-main-color: #ffc2e6;
+  --after-before-color: #353430;
+  --color-main-title: #353430;
+  --color-for-button: #353430;
+  --color-decorated: #ff8dcb;
+  --color-anchor-link: #f1b2ce;
+  --color-shadow-and-focus: #ff8dcb;
   --background-image: url("../images/cover-image-light.png");
 }
 
@@ -17,109 +17,23 @@
   display: none;
 }
 
-.theme-light .paragraph-link {
-  text-shadow: 2px 2px 0 var(--accent-color);
-  text-decoration: none;
-  color: var(--decorated-text-color);
-}
-
-.theme-light .paragraph-link:focus {
-  border: 1px solid var(--decorated-text-color);
-}
-
-.theme-light .paragraph-link:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--decorated-text-color);
-}
-
-.theme-light .main-content-paragraph {
-  color: var(--decorated-text-color);
-}
-
-.theme-light .main-content-header-without-decoration {
-  color: var(--decorated-text-color);
-}
-
-.theme-light .header-title::after,
-.theme-light .header-title::before,
-.theme-light .footer-title::after,
-.theme-light .footer-title::before {
-  border-color: var(--decorated-text-color);
-}
-
-.theme-light .header__theme-menu-button {
-  color: var(--decorated-text-color);
-}
-
-.theme-light .header__theme-menu-button_active {
-  outline-color: var(--decorated-text-color);
-}
-
-.theme-light .header__theme-menu-button:hover {
-  outline-color: var(--decorated-text-color);
-}
-
-.theme-light .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--decorated-text-color);
-}
-
+/* Задаем стили срабатывающие при выборе светлой темы в системе*/
 @media (prefers-color-scheme: light) {
   :root {
     --background-color: #fff1f7;
-    --main-sections-text-color: #f1b2ce;
+    --main-sections-text-color: #353430;
     --decorated-text-color: #353430;
-    --accent-color: #ff8dcb;
     --header-main-color: #ffc2e6;
+    --after-before-color: #353430;
+    --color-main-title: #353430;
+    --color-for-button: #353430;
+    --color-decorated: #ff8dcb;
+    --color-anchor-link: #f1b2ce;
+    --color-shadow-and-focus: #ff8dcb;
     --background-image: url("../images/cover-image-light.png");
   }
 
   .rec {
     display: none;
-  }
-
-  .paragraph-link {
-    text-shadow: 2px 2px 0 var(--accent-color);
-    text-decoration: none;
-    color: var(--decorated-text-color);
-  }
-
-  .paragraph-link:focus {
-    border: 1px solid var(--decorated-text-color);
-  }
-
-  .paragraph-link:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--decorated-text-color);
-  }
-
-  .main-content-paragraph {
-    color: var(--decorated-text-color);
-  }
-
-  .main-content-header-without-decoration {
-    color: var(--decorated-text-color);
-  }
-
-  .header-title::after,
-  .header-title::before,
-  .footer-title::after,
-  .footer-title::before {
-    border-color: var(--decorated-text-color);
-  }
-
-  .header__theme-menu-button {
-    color: var(--decorated-text-color);
-  }
-
-  .header__theme-menu-button_active {
-    outline-color: var(--decorated-text-color);
-  }
-
-  .header__theme-menu-button:hover {
-    outline-color: var(--decorated-text-color);
-  }
-
-  .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--decorated-text-color);
   }
 }
