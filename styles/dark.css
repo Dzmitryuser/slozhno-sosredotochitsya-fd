@@ -13,6 +13,7 @@
   --color-anchor-link: #f1b2ce;
   --color-shadow-and-focus: #ff0070;
   --background-image: url("../images/cover-image-dark.png");
+  --button-outline-hover-opacity: rgba(255, 0, 112, 0.4);
 }
 
 .theme-dark .rec {
@@ -34,6 +35,7 @@
     --color-anchor-link: #f1b2ce;
     --color-shadow-and-focus: #ff0070;
     --background-image: url("../images/cover-image-dark.png");
+    --button-outline-hover-opacity: rgba(255, 0, 112, 0.4);
   }
 
   .rec {
