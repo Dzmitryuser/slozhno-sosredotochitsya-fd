@@ -356,7 +356,7 @@
   }
 
   .project-footer {
-    min-height: 1042px;
+    min-height: 1024px;
     padding-top: 34px;
   }
 
@@ -374,14 +374,13 @@
     top: 36px;
   }
 
+  .footer-title::after {
+    bottom: 4px;
+  }
+
   .rec {
     top: 20px;
     right: 32px;
-  }
-
-  .project-footer::before {
-    top: 20px;
-    right: 20px;
   }
 
   .what-header {
@@ -410,7 +409,7 @@
   }
 
   .project-footer {
-    min-height: 785px;
+    min-height: 768px;
   }
 
   .the-bigest-project-title {
@@ -420,8 +419,8 @@
   }
 
   .footer-title {
-    margin-left: 5px;
-    margin-top: 0px;
+    margin-left: 0;
+    margin-top: 10px;
   }
 
   .header-article {
@@ -466,6 +465,10 @@
   }
 
   .footer-title::before {
-    top: 36px;
+    top: 38px;
+  }
+
+  .footer-title::after {
+    bottom: 2px;
   }
 }
