@@ -388,11 +388,6 @@
     margin-bottom: 20px;
     margin-top: 0;
   }
-
-  .the-bigest-project-title {
-    font-size: var(--laptop-tablet-header-clamp);
-    margin-bottom: 18px;
-  }
 }
 
 /* задаем поведение на десктоп экране*/
